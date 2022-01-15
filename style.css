@@ -15,8 +15,6 @@ body{
     color: #3A3A3A;
     transform: translate( 16%, 10%);
 
-    
-
 }
 
 main{
@@ -40,8 +38,6 @@ main{
     color: #3A3A3A;
     font-weight: 500;
 }
-
-
 
 .link_btn{
     text-decoration: none;
@@ -384,3 +380,5 @@ Media Query for Ipad
 
 
 }
+
+ /* End of StyleSheet */
