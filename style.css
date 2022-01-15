@@ -293,6 +293,11 @@ footer p{
         overflow-x: hidden;
 
     }
+
+    .logo-headline{
+        font-size: 24px;
+        color: #3A3A3A;
+        transform: translate( 13%, 10%);}
     .become-a-influencer-in-2022{
         
         flex-wrap: wrap-reverse;
@@ -308,7 +313,7 @@ footer p{
 
     .become-a-influencer-in-2022-text{
        
-        padding-bottom: 100px;
+        padding-bottom: 20px;
         margin-left: 0;
         margin-right: 0;
         max-width: 100%;
