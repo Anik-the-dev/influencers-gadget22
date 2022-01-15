@@ -6,6 +6,7 @@
 body{
     font-family: 'Poppins', sans-serif;
     font-family: 'Readex Pro', sans-serif;
+    margin: 0;
     /* background-color: #F3F1FF; */
 }
 
@@ -198,4 +199,46 @@ font-size: 12px;
 .small-text{
     font-weight: 300;
     font-size: 22px;
+}
+
+footer{
+    margin-top: 100px;
+    background-color: rgb(0, 0, 0);
+    height: 100px;
+    text-align: center;
+    padding-top: 35px;
+    padding-bottom: 50px;
+    color: #fff;
+
+    
+}
+
+footer h2{
+    margin-bottom: 5px;
+    font-size: 22px;
+    font-weight: 500;
+}
+
+footer p{
+    color: #fff;
+    font-size: 12px;
+    font-weight: 300;
+    line-height: 22px;
+    margin-top: 5px;
+    letter-spacing: 1px;
+}
+.social-icon{
+    display: flex;
+    justify-content: center;
+    transform: translate(-0.3%, 0%);
+
+    
+}
+.fab{
+    margin-left:10px;
+    color: #030303;
+    border-radius: 100px;
+    background-color: #ffffffce;
+    padding: 7px;
+    font-size: 12px;
 }
