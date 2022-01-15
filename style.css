@@ -286,12 +286,12 @@ footer p{
 /* mobile devices  */
 @media only screen and (max-width:688px) {
 
+
     main{
-        width: 100%;
-    }
-    .container{
 
         width: 100%;
+        overflow-x: hidden;
+
     }
     .become-a-influencer-in-2022{
         
@@ -300,12 +300,12 @@ footer p{
     }
     .become-a-influencer-in-2022-image{
         margin-top: 50px;
-        max-width: 80%;
+        max-width: 100%;
     
     
     }
     .become-a-influencer-in-2022-image img{
-        width: 100%;
+        
     }
 
     .become-a-influencer-in-2022-text{
@@ -313,6 +313,7 @@ footer p{
         padding-bottom: 100px;
         margin-left: 0;
         margin-right: 0;
+        max-width: 100%;
     }
     .become-a-influencer-in-2022-text h1{
         margin-bottom: 0px;
@@ -335,6 +336,17 @@ footer p{
 
     .discount-info-bg{
         background-color: #000000ef;
+    }
+
+}
+
+
+/* ..........................
+Media Query for Ipad  
+.............................*/
+@media only screen and (min-width:688px) and (max-width:992px){
+    .container{
+        background-color: #FB8200;
     }
 
 }
