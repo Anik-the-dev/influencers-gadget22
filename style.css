@@ -7,7 +7,16 @@ body{
     font-family: 'Poppins', sans-serif;
     font-family: 'Readex Pro', sans-serif;
     margin: 0;
+    padding : 0;
     /* background-color: #F3F1FF; */
+}
+.logo-headline{
+    font-size: 24px;
+    color: #3A3A3A;
+    transform: translate( 9%, 10%);
+
+    
+
 }
 
 main{
