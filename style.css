@@ -319,11 +319,16 @@ footer p{
         font-size: 28px;
     
     }
-    
+
+    .collections{
+        grid-template-columns: repeat(1,1fr);
+
+
+    }
     
   
 
-    .hot-collection, .discount-71 , footer{
+     .discount-71 , footer{
         display:none;
     }
 }
