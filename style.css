@@ -41,6 +41,8 @@ main{
     font-weight: 500;
 }
 
+
+
 .link_btn{
     text-decoration: none;
     background-color: #0C0F10;
@@ -92,6 +94,7 @@ main{
     display: flex;
     flex-direction: column;
     align-items: center;
+    position: relative;
 }
 .sub-headline{
     font-size: 28px;
@@ -102,6 +105,7 @@ main{
 .collections{
     display: grid;
     grid-template-columns: repeat(3,1fr);
+    
 }
 .single-collection{
     margin-right: 30px;
@@ -151,6 +155,20 @@ font-size: 12px;
     font-weight: 500;
     margin-top: 0;
 
+}
+
+.see-more{
+    position: absolute;
+    top: 100%;
+    right: 12%;
+    margin-top: 15px;
+    margin-bottom: 20px;
+    
+}
+.see-more a{
+    text-decoration: none;
+    color: #040505;
+    font-weight: 500;
 }
 
 /* discount 71% stylesheet */
