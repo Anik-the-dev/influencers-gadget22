@@ -304,9 +304,7 @@ footer p{
     
     
     }
-    .become-a-influencer-in-2022-image img{
-        
-    }
+
 
     .become-a-influencer-in-2022-text{
        
@@ -345,8 +343,20 @@ footer p{
 Media Query for Ipad  
 .............................*/
 @media only screen and (min-width:688px) and (max-width:992px){
-    .container{
-        background-color: #FB8200;
+    main{
+
+        width: 100%;
+        overflow-x: hidden;
+
     }
+    .become-a-influencer-in-2022-image{
+        margin-top: 150px;
+        width: 100%;
+        
+    
+    
+    }
+
+
 
 }
