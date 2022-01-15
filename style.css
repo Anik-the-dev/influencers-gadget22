@@ -349,12 +349,31 @@ Media Query for Ipad
         overflow-x: hidden;
 
     }
+
+    .logo-headline{
+        font-size: 24px;
+        color: #3A3A3A;
+        transform: translate( 7%, 10%);
+    }
     .become-a-influencer-in-2022-image{
         margin-top: 150px;
         width: 100%;
         
     
     
+    }
+
+    .collections{
+        grid-template-columns: repeat(2,1fr);
+
+
+    }
+
+    .discount-71{
+        width: 100%;
+        margin: 5px;
+        margin-top: 100px;
+        
     }
 
 
